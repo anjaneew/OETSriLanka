@@ -3,14 +3,14 @@
     border: 5px solid rgb(70, 70, 58);
     border-radius: 20px;
     padding: 20px;
-    max-width: 850px;
-    background-color: rgb(117, 131, 130);
-    color: rgb(197, 204, 216);
+    max-width: 650px;
+    background-color: rgb(102, 171, 236);
+    color: rgb(20, 32, 51);
     cursor: pointer;
 }
 
 .card-img{
-    width: 35rem;
+    width: 20rem;
   margin-bottom: 1rem;
 }
 
