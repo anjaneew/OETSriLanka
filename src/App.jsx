@@ -20,9 +20,9 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-      <div className="nav-bar">
-        <h1>OET Sri Lanka</h1>
-              <div >
+      <div>      
+        <div className="banner"></div>
+              <div className="nav-bar">
                 <nav>
                   <NavLink to="/" style={navLinkStyles}>Home</NavLink>{"  "}|{"  "}
                   <NavLink to="/skills" style={navLinkStyles}>Skills</NavLink>{"  "}|{"  "}

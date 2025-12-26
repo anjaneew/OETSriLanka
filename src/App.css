@@ -9,6 +9,13 @@
   text-align: center;
 }
 
+.banner{
+  background-image: url("../public/images/Cover.PNG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 400px;
+}
+
 .nav-bar{
   background-color: rgb(70, 144, 241);
   padding: 20px;
