@@ -2,8 +2,8 @@
 import React, {useState } from "react";
 import cover from "../../public/images/Slide1.PNG";
 import "../App.css";
-import {Data, type PackageType} from "./data/Data.ts";
-import Card from "./Card.jsx";
+import {Data, type PackageType} from "./data/Data";
+import Card from "./card/Card";
 
 
 const Home = () => {

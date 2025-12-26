@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 
-const navLinkStyles = ({ isActive }) => ({
+const navLinkStyles = ({ isActive } : {isActive: boolean}) => ({
   color: isActive ? '#007bff' : '#333',
   textDecoration: isActive ? 'none' : 'underline',
   fontWeight: isActive? 'bold' : 'normal',

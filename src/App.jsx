@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
-import Home from "./components/Home.tsx";
-import Contact from './components/Contact.tsx';
-import Skills from './components/Skills.tsx';
-import Packages from "./components/packages/OetPackage.tsx";
-import Listening from "./components/skills/Listening.tsx"; 
-import Reading from "./components/skills/Reading.tsx";
-import Writing from "./components/skills/Writing.tsx";
-import Speaking from './components/skills/Speaking.tsx';
+import Home from "./components/Home";
+import Contact from './components/Contact';
+import Skills from './components/Skills';
+import Packages from "./components/packages/OetPackage";
+import Listening from "./components/skills/Listening"; 
+import Reading from "./components/skills/Reading";
+import Writing from "./components/skills/Writing";
+import Speaking from './components/skills/Speaking';
 import './App.css';
 
 const navLinkStyles = ({ isActive }) => ({

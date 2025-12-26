@@ -1,4 +1,4 @@
-import { type PackageType, Data } from "../data/Data.ts";
+import { type PackageType, Data } from "../data/Data";
 import styles from "./OetPackage.module.css";
 
 const Packages = () => {

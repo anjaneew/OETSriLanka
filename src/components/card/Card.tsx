@@ -1,6 +1,11 @@
-import './Card.css';
+import './Card.module.css';
+import {type PackageType} from '../data/Data';
 
-const Card = ({title, sindescription, engdescription, fee, duration, contact,  email, image, index}) => {
+type CardPropType = PackageType & {
+  index: number;
+}
+
+const Card = ({title, sindescription, engdescription, fee, duration, contact,  email, image, index}: CardPropType) => {
   return (
     <div className="card" key={index}>
         <span >
