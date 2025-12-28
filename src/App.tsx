@@ -7,13 +7,14 @@ import Listening from "./components/skills/Listening";
 import Reading from "./components/skills/Reading";
 import Writing from "./components/skills/Writing";
 import Speaking from './components/skills/Speaking';
+import Footer from "./components/footer/Footer";
 import './App.css';
 
-const navLinkStyles = ({ isActive }) => ({
-  color: isActive ? '#062a53ff' : '#083e6bff',
-  textDecoration: isActive ? 'none' : 'underline',
-  fontWeight: 'bold',
-  padding: "5px 10px"
+const navLinkStyles = ({ isActive } : {isActive: boolean}) => ({
+  color: isActive ?   '#07135cff': '#0a327eff',
+  textDecoration: "none",
+  fontWeight: "bold",
+  padding: "5px 10px",
 });
 
 const App = () => {
@@ -21,8 +22,9 @@ const App = () => {
     <div>
       <BrowserRouter>
       <div>      
-        <div className="banner"></div>
+        
               <div className="nav-bar">
+                <div className="banner"></div>
                 <nav>
                   <NavLink to="/" style={navLinkStyles}>Home</NavLink>{"  "}|{"  "}
                   <NavLink to="/skills" style={navLinkStyles}>Skills</NavLink>{"  "}|{"  "}
@@ -44,6 +46,8 @@ const App = () => {
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
+
+      <Footer/>
     </div>
   );
 };

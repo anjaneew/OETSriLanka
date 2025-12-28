@@ -3,17 +3,28 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding-top: 200px;
+  padding-top: 350px;
   padding-left: 2rem;
   padding-right: 2rem;
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: #0693ca;
+}
+
+a:hover {
+  color: #062a53;
+}
 .banner{
   background-image: url("../public/images/Cover.PNG");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 400px;
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  /* background-size: cover; */
 }
 
 .nav-bar{
@@ -21,10 +32,11 @@
   padding: 20px;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
   right: 0;
   width: 100%;
   z-index: 100;
+  transform: translateX(-50%);
 }
 
 
@@ -49,4 +61,194 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+/* Home page intro section */
+.home-intro {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.home-intro h1 {
+  text-align: center;
+  color: #062a53;
+  margin-bottom: 30px;
+}
+
+.home-intro p , .skills-intro p{
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #213547;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Contact page styling */
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.contact-container h1 {
+  text-align: center;
+  color: #062a53;
+  margin-bottom: 30px;
+}
+
+.contact-container p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #213547;
+   text-align: justify;
+}
+
+.contact-details {
+  background-color: #e3f2fd;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  border-left: 5px solid #0693ca;
+}
+
+.contact-details h2 {
+  color: #062a53;
+  margin-bottom: 20px;
+}
+
+.contact-details strong {
+  color: #0693ca;
+}
+
+/* Search section styling */
+.home-intro + div {
+  margin-top: 40px;
+}
+
+input[type="text"] {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: 2px solid #0693ca;
+  border-radius: 5px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #062a53;
+  box-shadow: 0 0 5px rgba(6, 147, 202, 0.3);
+}
+
+/* MOBILE RESPONSIVE - screens smaller than 768px */
+@media (max-width: 768px) {
+  #root {
+    padding-top: 150px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .banner {
+    height: 200px;
+  }
+
+  .nav-bar {
+    padding: 10px;
+  }
+
+  .nav-bar nav {
+    font-size: 0.9rem;
+  }
+
+  .home-intro,
+  .contact-container {
+    text-align: left;
+  }
+
+  .home-intro h1,
+  .contact-container h1 {
+    font-size: 2rem;
+  }
+
+  .home-intro p, .skills-intro p
+  .contact-container p {
+    font-size: 1rem;
+  }
+
+  input[type="text"] {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  .contact-details {
+    padding: 20px;
+  }
+}
+
+/* VERY SMALL SCREENS - phones in portrait */
+@media (max-width: 480px) {
+  .nav-bar nav a {
+    padding: 3px 5px;
+    font-size: 0.85rem;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* Search form styling */
+.search-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.search-form input {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: 2px solid #0693ca;
+  border-radius: 8px;
+  width: 350px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: large;
+}
+
+.search-form input:focus {
+  outline: none;
+  border-color: #062a53;
+  box-shadow: 0 0 8px rgba(6, 147, 202, 0.4);
+  font-weight: bold;
+}
+
+.search-form button {
+  background-color: #062a53;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 5px solid #051c35;
+  transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+  background-color: #051c35;
+  box-shadow: 5px solid #b4c8dd;
 }
