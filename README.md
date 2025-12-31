@@ -49,10 +49,13 @@ The application uses TypeScript interfaces for type safety:
 
 ## Deployment
 
-Built with Vite for optimized production builds. Deploy to any static hosting service.
+Built with Vite for optimized production builds and deployed on Vercel for fast, reliable hosting with automatic CI/CD.
+
 ```bash
 npm run build
 ```
+
+Live site: 
 
 ## Contact
 
