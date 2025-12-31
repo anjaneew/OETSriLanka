@@ -1,16 +1,73 @@
-# React + Vite
+# OET Sri Lanka - Occupational English Test Preparation Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive web platform for healthcare professionals preparing for the Occupational English Test (OET) in Sri Lanka. Built with React, TypeScript, and React Router.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+OET Sri Lanka provides specialized English language training for doctors, nurses, and healthcare professionals. The platform offers detailed information about OET preparation courses, skill-specific guidance, and educational resources across all four language competencies: Listening, Reading, Writing, and Speaking.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Course Packages**: Browse and search through specialized OET preparation seminars
+- **Skills Section**: In-depth articles and guidance for each OET sub-test
+- **Responsive Design**: Fully mobile-responsive layout
+- **Search Functionality**: Filter packages by title or keywords
+- **Contact Integration**: Direct WhatsApp and email contact options
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- TypeScript
+- React Router DOM (client-side routing)
+- CSS Modules
+- React Icons
+- Vite (build tool)
+
+## Project Structure
+```
+src/
+├── components/
+│   ├── blog/          # Article display components
+│   ├── card/          # Package card components
+│   ├── footer/        # Footer with social links
+│   ├── packages/      # OET package listings
+│   ├── skills/        # Skill-specific pages (Listening, Reading, Writing, Speaking)
+│   ├── data/          # TypeScript data files (packages and articles)
+│   ├── Home.tsx       # Landing page with search
+│   ├── Skills.tsx     # Skills overview and navigation
+│   └── Contact.tsx    # Contact information
+├── App.tsx            # Main routing configuration
+└── App.css / index.css # Global styles
+```
+
+## Data Structure
+
+The application uses TypeScript interfaces for type safety:
+
+- **PackageType**: Course package information (title, description, fee, duration, contact)
+- **ArticleType**: Educational articles (title, lead, body, conclusion, associated skills)
+
+## Deployment
+
+Built with Vite for optimized production builds. Deploy to any static hosting service.
+```bash
+npm run build
+```
+
+## Contact
+
+For inquiries about OET preparation courses:
+- **WhatsApp**: +94714683687
+- **Email**: srilankaoet@gmail.com
+
+For inquiries about the website:
+- **Email**: anjaneew@gmail.com
+
+## License
+
+© 2025 Anjanee S. Wijewardana. All rights reserved.
+
+## Acknowledgments
+
+This project serves both as a portfolio piece and a functional business website for OET preparation services in Sri Lanka.
+```
