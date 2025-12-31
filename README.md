@@ -55,7 +55,7 @@ Built with Vite for optimized production builds and deployed on Vercel for fast,
 npm run build
 ```
 
-Live site: 
+Live site:  https://oet-sri-lanka.vercel.app/
 
 ## Contact
 

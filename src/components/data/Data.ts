@@ -21,7 +21,7 @@ const Data:PackageType[] = [
         duration: "1h",
         contact:"+94714683687",
         email: "srilankaoet@gmail.com",
-        image: "../../../public/images/Slide3.PNG",
+        image: "/images/Slide3.PNG",
     },
     {
         title: "OET Listening A Seminar",
@@ -30,7 +30,7 @@ const Data:PackageType[] = [
         duration: "2h",
         contact:"+94714683687",
         email: "srilankaoet@gmail.com",
-        image: "../../../public/images/Slide6.PNG",
+        image: "/images/Slide6.PNG",
     },
         {
         title: "OET Listening B Seminar",
@@ -39,7 +39,7 @@ const Data:PackageType[] = [
         duration: "1h",
         contact:"+94714683687",
         email: "srilankaoet@gmail.com",
-        image: "../../../public/images/Slide6.PNG",
+        image: "/images/Slide6.PNG",
     },
     {
         title: "OET Listening C Seminar",
@@ -48,7 +48,7 @@ const Data:PackageType[] = [
         duration: "2h",
         contact:"+94714683687",
         email: "srilankaoet@gmail.com",
-        image: "../../../public/images/Slide6.PNG",
+        image: "/images/Slide6.PNG",
     },
         {
         title: "OET Reading A Seminar",
@@ -57,7 +57,7 @@ const Data:PackageType[] = [
         duration: "2h",
         contact:"+94714683687",
         email: "srilankaoet@gmail.com",
-        image: "../../../public/images/Slide10.PNG",
+        image: "/images/Slide10.PNG",
     },
     {
         title: "OET Reading B Seminar",
@@ -66,7 +66,7 @@ const Data:PackageType[] = [
         duration: "1h",
         contact:"+94714683687",
         email: "srilankaoet@gmail.com",
-        image: "../../../public/images/Slide10.PNG",
+        image: "/images/Slide10.PNG",
     },
         {
         title: "OET Reading C Seminar",
@@ -75,7 +75,7 @@ const Data:PackageType[] = [
         duration: "2h",
         contact:"+94714683687",
         email: "srilankaoet@gmail.com",
-        image: "../../../public/images/Slide10.PNG",
+        image: "/images/Slide10.PNG",
     },
     {
         title: "OET Writing Corrections",
@@ -85,7 +85,7 @@ const Data:PackageType[] = [
         duration: "1h",
         contact:"+94714683687",
         email: "srilankaoet@gmail.com",
-        image: "../../../public/images/Slide14.PNG",
+        image: "/images/Slide14.PNG",
     },
         {
         title: "OET Writing Practice",
@@ -94,7 +94,7 @@ const Data:PackageType[] = [
         duration: "3h",
         contact:"+94714683687",
         email: "srilankaoet@gmail.com",
-        image: "../../../public/images/Slide14.PNG",
+        image: "/images/Slide14.PNG",
     },
 ];
 
