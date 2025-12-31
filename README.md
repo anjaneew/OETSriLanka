@@ -2,6 +2,8 @@
 
 A comprehensive web platform for healthcare professionals preparing for the Occupational English Test (OET) in Sri Lanka. Built with React, TypeScript, and React Router.
 
+![desktop view](desktopview.png)
+
 ## Overview
 
 OET Sri Lanka provides specialized English language training for doctors, nurses, and healthcare professionals. The platform offers detailed information about OET preparation courses, skill-specific guidance, and educational resources across all four language competencies: Listening, Reading, Writing, and Speaking.
@@ -22,6 +24,8 @@ OET Sri Lanka provides specialized English language training for doctors, nurses
 - CSS Modules
 - React Icons
 - Vite (build tool)
+
+![blog articles](blog.png)
 
 ## Project Structure
 ```
@@ -56,6 +60,8 @@ npm run build
 ```
 
 Live site:  https://oet-sri-lanka.vercel.app/
+
+![oet packages](packages.png)
 
 ## Contact
 
