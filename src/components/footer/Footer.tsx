@@ -1,9 +1,9 @@
-import "./Footer.module.css";
+import styles from "./Footer.module.css";
 import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <div className={styles.footerContainer}>
           <p className="copyright">© 2025 ~ Anjanee S. Wijewardana ~ All rights reserved.</p>
         <div className="footerbox">
 

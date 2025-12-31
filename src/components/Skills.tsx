@@ -3,11 +3,14 @@ import { IoHeadsetOutline } from "react-icons/io5";
 import { AiFillRead } from "react-icons/ai";
 import { BiConversation } from "react-icons/bi";
 import { FaPen } from "react-icons/fa";
+import React from "react";
 
-const navLinkStyles = ({ isActive } : {isActive: boolean}) => ({
-  color: isActive ? '#031d70ff' : '#041575ff',
+const navLinkStyles = ({ isActive } : {isActive: boolean}): React.CSSProperties => ({
+  color: isActive ? 'rgb(20, 32, 51)' :'#031d70ff',
   textDecoration: "none",
-  padding: "5px 10px"
+  padding: "5px 10px",
+  fontSize: "30px",
+  textAlign: "center" as const,
 });
 
 
@@ -55,7 +58,7 @@ const Skills = () => {
 
   return (
     <div>
-      <div>
+      <div className="skills-container">
 
  
         { isMainPage ?  skillsPage : <>

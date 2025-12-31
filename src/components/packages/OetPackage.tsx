@@ -11,7 +11,7 @@ const Packages = () => {
         <img src={oetPackage.image} alt={oetPackage.title} className={styles.cardImage}/>
         <p>{oetPackage.sindescription}</p>
         <p>{oetPackage.engdescription}</p>
-        <p className="card-fee">Fee: {oetPackage.fee}</p>
+        <p className={styles.cardFee}>Fee: {oetPackage.fee}</p>
         <p>Duration: {oetPackage.duration}</p>
         <p>📞 Call us at : {oetPackage.contact}</p>
         <p>✉️ Contact : {oetPackage.email}</p>

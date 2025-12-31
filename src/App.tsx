@@ -11,7 +11,8 @@ import Footer from "./components/footer/Footer";
 import './App.css';
 
 const navLinkStyles = ({ isActive } : {isActive: boolean}) => ({
-  color: isActive ?   '#07135cff': '#0a327eff',
+  // color: isActive ?   '#07135cff': '#0a327eff',
+  color: isActive ?   '#07135cff': '#094bc5ff',
   textDecoration: "none",
   fontWeight: "bold",
   padding: "5px 10px",

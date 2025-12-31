@@ -11,7 +11,7 @@ const Contact = () => {
         <h2>Get in Touch</h2>
         <p><strong>WhatsApp:</strong> +94714683687</p>
         <p><strong>Email:</strong> srilankaoet@gmail.com</p>
-        <p>We typically respond to inquiries within 24 hours. Feel free to reach out in English or Sinhala – we're happy to communicate in the language you're most comfortable with.</p>
+        <p>We typically respond to inquiries within 24 hours. Feel free to reach out in English or Sinhala, we're happy to communicate in the language you're most comfortable with.</p>
       </div>
     </div>
   );

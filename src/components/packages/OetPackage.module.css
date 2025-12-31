@@ -4,13 +4,16 @@
     justify-content: center;
     gap: 30px;
     padding: 20px;
+    width: 100%;
     max-width: 1400px;
     margin: 0 auto;
 }
 
 .card{
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
+    flex: 1 1 400px;
+    min-width: 450px;
     max-width: 450px;
     padding: 25px;
     border-radius: 15px;
@@ -58,9 +61,10 @@
       line-height: 1.6;
   margin-bottom: 12px;
   font-size: 1rem;
+  color: #fff;
 }
 
-/* MOBILE */
+/* MOBILE
 @media (max-width: 768px) {
   .container {
     gap: 20px;
@@ -78,5 +82,63 @@
 
   .cardImage {
     max-width: 100%;
+  }
+} */
+
+/* TABLET */
+@media (max-width: 1024px) {
+  .card {
+    flex: 1 1 350px;
+    max-width: 400px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .container {
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+    min-width: 0; /* Remove any min-width constraints */
+    padding: 20px;
+  }
+
+  .cardTitle {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+
+  .cardImage {
+    max-width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .card p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+  }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .cardTitle {
+    font-size: 1.3rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
   }
 }

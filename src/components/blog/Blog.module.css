@@ -1,0 +1,49 @@
+.blogArticle{
+    border-radius: 15px;
+    padding: 25px;
+    max-width: 800px;
+    background-color: rgb(102, 171, 236);
+    color: rgb(20, 32, 51);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.blogArticle h1 {
+    text-align: center;
+}
+
+.blogArticle h3{
+    text-align: center;
+    font-style: italic;
+}
+
+.blogArticle img{
+    max-width: 100%;
+}
+
+.blogArticle p{
+    text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+    .blogArticle {
+        border-radius: 10px; 
+        padding: 15px; 
+        max-width: 100%;
+    }
+
+    .blogArticle h1 {
+        font-size: 1.5rem; 
+    }
+
+    .blogArticle h3 {
+        font-size: 1.1rem; 
+    }
+
+    .blogArticle p {
+        font-size: 0.95rem; 
+        text-align: justify; 
+
+    }
+}

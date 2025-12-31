@@ -1,7 +1,7 @@
 
 
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
   padding-top: 350px;
   padding-left: 2rem;
@@ -55,9 +55,9 @@ a:hover {
   }
 }
 
-.card {
+/* .card {
   padding: 2em;
-}
+} */
 
 .read-the-docs {
   color: #888;
@@ -65,7 +65,7 @@ a:hover {
 
 
 /* Home page intro section */
-.home-intro {
+.home-intro, .skills-intro {
   max-width: 800px;
   margin: 0 auto 40px;
   text-align: left;
@@ -87,9 +87,13 @@ a:hover {
   margin-bottom: 15px;
 }
 
+.cover{
+  max-width: 100%;
+}
 /* Contact page styling */
-.contact-container {
+.contact-container, .skills-container {
   max-width: 800px;
+  padding-top: 20px;
   margin: 0 auto;
   text-align: left;
   line-height: 1.8;
@@ -151,10 +155,13 @@ input[type="text"]:focus {
     padding-top: 150px;
     padding-left: 1rem;
     padding-right: 1rem;
+    max-width: 90%;
   }
 
   .banner {
-    height: 200px;
+    width: auto;
+    height: 150px;
+    background-size: cover;
   }
 
   .nav-bar {
@@ -165,12 +172,14 @@ input[type="text"]:focus {
     font-size: 0.9rem;
   }
 
-  .home-intro,
+  .home-intro, .search-form,
   .contact-container {
-    text-align: left;
+    text-align: justify;
+    max-width: 90%;
+    margin: 0 auto 40px;
   }
 
-  .home-intro h1,
+  .home-intro h1, 
   .contact-container h1 {
     font-size: 2rem;
   }
